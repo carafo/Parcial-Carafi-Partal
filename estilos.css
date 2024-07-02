@@ -1,0 +1,176 @@
+body{
+    background-color: #212529;
+}
+
+/* header */
+#logo{
+    background-image: url(./icon/Logo.png);
+    width: 80px;
+    height: 80px;
+    font-size: 0;
+    position: absolute;
+    left: 64px;
+    top: 30px;
+    z-index: 1;
+}
+
+.pizzabg{
+    background-color: #212529
+}
+
+#nav a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#nav a:hover{
+    color: gold;
+}
+
+#hamburguesa{
+    color: gold;
+    background-color: white;;
+    margin-right: 10px;
+}
+
+ul{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+/* Cierra Header */
+
+/* Banner */
+#banner{
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(236,215,0,0.2) 100%) , url('./img/BannerPizza.jpg');
+}
+
+h2, h3{
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px black;
+    color: gold;
+}
+
+p, h4{
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 3px 3px 5px black;
+}
+
+.btn:hover{
+    background-color: gold;
+    border: none;
+}
+/* Cierra Banner */
+
+/* Card Seccion */
+#pizzas img{
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.colorpastilla{
+    background-color: #212529;
+}
+
+.custom-font {
+    font-family:'Times New Roman', Times, serif;
+}
+.card-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 1px 1px 8px 1px gold;
+}
+
+.custom-shadow {
+    box-shadow: 1px 1px 8px 1px gold;
+}
+/* Cierre Card Seccion */
+
+/* Main */
+#nosotros{
+    color: white;
+    text-align: justify;
+}
+/* Cierre Main */
+
+/* Formulario */
+.form-control{
+    border: 2px solid #FFD700;
+}
+
+.form-control:focus {
+    border-color: #FFA500;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+.btn-custom {
+    color: #FFD700;
+    border-color: #FFD700;
+}
+
+.btn-custom:hover {
+    background-color: #FFD700;
+    color: #000; 
+}
+/* Cierra Formulario */
+
+/* Footer */
+footer ul{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+footer ul li{
+    list-style: none;
+    font-size: 2rem;
+}
+
+footer a{
+    color: white;
+}
+
+.social-links{
+    justify-content: center;
+}
+/* Cierra Footer */
+
+/* Media */
+@media screen and (max-width: 991px){
+    #logo{
+        left: calc(50% - 50px);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #nosotros1 img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #nosotros2 img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #nosotros3 img {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #nosotros1 img {
+        max-width: 100%;
+    }
+
+    #nosotros2 img {
+        max-width: 100%;
+    }
+
+    #nosotros3 img {
+        max-width: 100%;
+    }
+}
